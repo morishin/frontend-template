@@ -91062,7 +91062,9 @@ const IndexContainer = () => {
     href: "https://www.irasutoya.com/2013/12/blog-post_3639.html"
   }, React.createElement(react_1.Image, {
     src: happy_png_1.default,
-    w: 300
+    w: 300,
+    htmlWidth: "997",
+    htmlHeight: "717"
   })), React.createElement(react_1.Text, {
     fontSize: "xl"
   }, "This is frontend-template."), React.createElement(react_1.Popover, null, React.createElement(react_1.PopoverTrigger, null, React.createElement(react_1.Button, {
@@ -91190,7 +91192,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61964" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63452" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
