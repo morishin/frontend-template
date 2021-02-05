@@ -43,7 +43,7 @@ export const IndexContainer = () => {
           </Flex>
         </Heading>
         <a href="https://www.irasutoya.com/2013/12/blog-post_3639.html">
-          <Image src={happyImage} w={300} />
+          <Image src={happyImage} w={300} htmlWidth="997" htmlHeight="717" />
         </a>
         <Text fontSize="xl">This is frontend-template.</Text>
         <Popover>
