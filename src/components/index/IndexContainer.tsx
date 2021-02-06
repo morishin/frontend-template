@@ -49,7 +49,7 @@ export const IndexContainer = () => {
         <Popover>
           <PopoverTrigger>
             <Button leftIcon={<InfoIcon />} colorScheme="teal" mt={4}>
-              Sey Hello
+              Say Hello
             </Button>
           </PopoverTrigger>
           <PopoverContent>
